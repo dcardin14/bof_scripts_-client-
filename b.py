@@ -1,10 +1,12 @@
 #06-20-2020 DC:  This is a client, not a server.  
-#06-20-2020 DC:  This b.py script will send a 300-byte pattern so I can use pattern_offset to figure out where the EIP is being overwritten.
+#jkjk
+#06-20-2020 DC:  This b.py script will send a 300-byte pattern so I can use "msf-pattern_offset -q" (exact syntax)
+#to figure out where the EIP is being overwritten.
 #06-20-2020 DC:  I'm only using 300 because I happen to know the number is smaller than that.
 
 
 #!/usr/bin/python
- 
+
 import socket
 
 target_host = "10.0.2.7"
